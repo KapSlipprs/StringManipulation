@@ -1,5 +1,7 @@
 public class HiddenWord
 {
+	//gay
+
 	private String word;
 
 	public HiddenWord(String h)
