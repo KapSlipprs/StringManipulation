@@ -1,6 +1,6 @@
 public class HiddenWord
 {
-	//gay
+
 
 	private String word;
 
