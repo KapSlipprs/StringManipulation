@@ -19,4 +19,4 @@ public class HiddenWord
 			{
 				word += g.charAt(i);
 			}
-			else if (g.charA
+			else if (g.charAt(i)!= charAt
