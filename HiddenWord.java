@@ -11,12 +11,14 @@ public class HiddenWord
 
 	public String getHint(String g)
 	{
-		String hint;
+		String words = "";
 
-		for (int i=0; i<g.length()-1; i++)
+		for(int c = 0; c < words.length();  c++)
 		{
-			if (g.charAt(i)==word.charAt(i))
-			{
-				word += g.charAt(i);
-			}
-			else if (g.charAt(i)!= charAt
+
+
+		}
+		return words;
+	}
+}
+
