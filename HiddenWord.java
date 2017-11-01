@@ -1,3 +1,6 @@
+//Jesse Yochens
+//Huey Ries
+
 import java.util.*;
 public class HiddenWord
 {

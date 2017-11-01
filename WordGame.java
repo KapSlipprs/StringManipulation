@@ -1,3 +1,6 @@
+//Jesse Yochens
+//Huey Ries
+
 import java.util.*;
 public class WordGame
 {
@@ -12,6 +15,10 @@ public class WordGame
 		String guess;
 
 		HiddenWord puzzle=new HiddenWord(word);
+
+		System.out.println("Welcome to the word game!");
+		System.out.println("You must guess a five letter word!");
+		System.out.println();
 
 		do
 		{
