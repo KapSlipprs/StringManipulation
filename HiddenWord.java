@@ -14,7 +14,7 @@ public class HiddenWord
 			guess = keyboard.nextLine();
 			word2 = getHint(guess);
 			System.out.println("\n"+word2);
-		}while(guess != word2);
+		}while(word2 != word1);
 
 	}
 
@@ -27,29 +27,29 @@ public class HiddenWord
 
 	public static String getHint(String g)
 	{
-		String words = "";
+		String hint = "";
 
 
 		for(int c = 0; c < word.length();  c++)
 		{
 			String letter = g.substring(c,c+1);
 
-			if(g.charAt(c) == word.charAt(c))
+			if(word.charAt(c) == g.charAt(c))
 			{
-				 words += letter;
+				 hint += letter;
 			}
-			else if (g.indexOf(letter) != -1)
+			else if (word.indexOf(letter) != -1)
 			{
-				words += "+";
+				hint += "+";
 			}
-			else  (g.indexOf(letter) == -1)
+			else
 			{
-				words += "*";
+				hint += "*";
 			}
 
 		}
 
-		return words;
+		return hint;
 	}
 }
 
