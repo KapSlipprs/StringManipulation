@@ -18,7 +18,7 @@ public class WordGame
 			System.out.print("What is your guess? ");
 			guess= keyboard.nextLine();
 
-			if(guess.equals(puzzle.getHint(guess)))
+			if(!(guess.equals(puzzle.getHint(guess))))
 			{
 				System.out.println("Oh no! That isn't correct!");
 				System.out.println("Your hint is: "+puzzle.getHint(guess));
